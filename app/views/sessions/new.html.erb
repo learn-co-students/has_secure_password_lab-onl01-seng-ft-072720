@@ -1,0 +1,6 @@
+LOGIN
+<%= form_for @user, url:sessions_path do |f|%>
+<%= f.text_field :name %>
+<%= f.text_field :password %>
+<%= f.submit "log in" %>
+<% end %>
